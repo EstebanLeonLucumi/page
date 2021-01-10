@@ -11,7 +11,7 @@
 .enlace-copy {
     flex-wrap: wrap;
     color: white;
-    font-size: 50px;
+    font-size: 30px;
     text-align: center;
     font-weight: 600;
 }
@@ -107,7 +107,7 @@ button#copiador:active {
 .enlace-copy2 {
     flex-wrap: wrap;
     color: white;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     font-weight: 600;
 }
