@@ -1,0 +1,44 @@
+.contacto-button{
+    margin-top: 20px;
+    width: 160px;
+    height: 50px;
+    font-size: 17px;
+    background: transparent;
+    border-radius: 5px;
+    border: 2px solid rgb(253, 76, 76);
+    color: rgb(253, 76, 76);
+    cursor: pointer;
+    transition: .4s;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.contacto-button:hover{
+    text-decoration: none;
+    transform: translateY(-3px) scale(1.05);
+    color: white;
+    transition: .4s;
+    background: rgb(253, 76, 76);
+}
+
+.contacto-button:active{
+    transform: scale(1.06);
+    box-shadow: 5px 0px 10px rgba(0, 0, 0, .4);
+}
+
+.icon {
+    text-align: center;
+    font-size: 80px;
+    color: rgb(253, 76, 76);
+    padding: 0px;
+    margin: 0px;
+}
+
+.icon i {
+    transition: .4s;
+}
+
+.icon i:hover {
+    transform: translateY(-10px) scale(1.50);
+    transition: .4s;
+}

@@ -1,0 +1,33 @@
+.redes-container {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    height: 1060px;
+    margin: 20px;
+    transition: .3s;
+}
+
+.redes-container ul li {
+    vertical-align: middle;
+    width: 0px;
+    height: 40px;
+    text-align: center;
+    list-style: none;
+}
+
+.redes-container ul li a {
+    display: block;
+    padding: 10 10px;
+    color: rgb(253, 76, 76);
+    font-size: 20px;
+    transition: .2s;
+}
+
+.redes-container ul:hover a {
+    filter: blur(2px);
+}
+
+.redes-container ul a:hover {
+    transform: translateY(-3px) scale(1.05);
+    filter: none;
+}

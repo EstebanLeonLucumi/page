@@ -1,0 +1,149 @@
+#banner .contacto-page {
+    color: white;
+    font-size: 45px;
+}
+
+#banner .contacto-page1 {
+    color: rgb(253, 76, 76);
+    font-size: 60px;
+}
+
+.enlace-copy {
+    flex-wrap: wrap;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.boton {
+    text-align: center;
+}
+
+.btn-copiador {
+    color: rgb(253, 76, 76);
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid rgb(253, 76, 76);
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, .1);
+    transition: .2s;
+    font-weight: 600;
+}
+
+button#copiador:hover {
+    background-color: rgb(253, 76, 76);
+    transform: translateY(-3px) scale(1.10);
+    color: white;
+    transition: .4s;
+}
+
+button#copiador:active {
+    transform: scale(1.06);
+    box-shadow: 5px 0px 10px rgba(0, 0, 0, .4);
+}
+
+.contacto-wpp {
+    text-align: center;
+}
+
+.btn-copiador2 {
+    color: rgb(253, 76, 76);
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid rgb(253, 76, 76);
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, .1);
+    transition: .2s;
+    font-weight: 600;
+}
+
+.btn-copiador2:hover {
+    background-color: rgb(253, 76, 76);
+    transform: translateY(-3px) scale(1.10);
+    color: white;
+    transition: .4s;
+}
+
+.btn-copiador2:active {
+    transform: scale(1.06);
+    box-shadow: 5px 0px 10px rgba(0, 0, 0, .4);
+}
+
+.correo-gmail i {
+    font-size: 80px;
+    justify-content: center;
+    color: rgb(253, 76, 76);
+}
+
+.correo-gmail {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.correo-gmail2 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.correo-gmail2 i {
+    font-size: 80px;
+    justify-content: center;
+    color: rgb(253, 76, 76);
+}
+
+.enlace-copy2 {
+    flex-wrap: wrap;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+}
+@media (min-width:1024px) {
+    .columnas {
+        display: flex;
+    }
+    .columna1 {
+        width: 790px;
+        margin-left: 60px;
+    }
+    .columna2 {
+        width: 790px;
+    }
+    .enlace-copy {
+        font-size: 25px;
+    }
+    .enlace-copy2 {
+        font-size: 25px;
+    }
+
+    .correo-gmail i{
+        transition: .4s;
+    }
+
+    .correo-gmail i:hover {
+        transform: translateY(-3px) scale(1.20);
+        transition: .4s;
+    }
+    
+    .correo-gmail2 i{
+        transition: .4s;
+    }
+
+    .correo-gmail2 i:hover {
+        transform: translateY(-3px) scale(1.20);
+        transition: .4s;
+    }
+}

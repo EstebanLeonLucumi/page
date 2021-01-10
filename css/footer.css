@@ -1,0 +1,20 @@
+.container-footer {
+    background-color: rgb(39, 39, 39);
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer */
+    -khtml-user-select: none;
+    /* KHTML browsers (e.g. Konqueror) */
+    -webkit-user-select: none;
+    /* Chrome, Safari, and Opera */
+    -webkit-touch-callout: none;
+    /* Disable Android and iOS callouts*/
+}
+
+.container-footer p {
+    text-align: center;
+    padding: 50px;
+    color: white;
+    font-weight: 600;
+}
